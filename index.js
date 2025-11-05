@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 const API_URL = "https://test.icorp.uz/interview.php";
-const APP_PORT = 3000;
+const APP_PORT = 2858;
 let secondPartCode = null;
 
 app.post("/test-api", (req, res) => {
